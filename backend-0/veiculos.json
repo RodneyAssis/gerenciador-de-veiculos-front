@@ -1,0 +1,94 @@
+{
+  "veiculos": [
+    {
+      "id": "2",
+      "img": "https://unsplash.it/400/200",
+      "marca": "Honda",
+      "modelo": "Civic",
+      "cor": "Preto",
+      "ano": 2021,
+      "categoria": "Carro",
+      "fabricante": "Honda",
+      "preco": 150000,
+      "quantidadePortas": 4,
+      "tipoCombustivel": "Gasolina"
+    },
+    {
+      "id": "3",
+      "img": "https://unsplash.it/400/200",
+      "marca": "chevet",
+      "modelo": "YZF R3",
+      "cor": "Azul",
+      "ano": "2023",
+      "categoria": "Moto",
+      "fabricante": "Yamaha",
+      "preco": "28000",
+      "cilindrada": "321",
+      "quantidadePortas": null,
+      "tipoCombustivel": null
+    },
+    {
+      "id": "5",
+      "img": "https://unsplash.it/400/200",
+      "marca": "Honda",
+      "modelo": "CG 160",
+      "cor": "Vermelho",
+      "ano": 2022,
+      "categoria": "Moto",
+      "fabricante": "Honda",
+      "preco": 14000,
+      "cilindrada": 162
+    },
+    {
+      "id": "6",
+      "img": "https://unsplash.it/400/200",
+      "marca": "Ford",
+      "modelo": "Ka",
+      "cor": "Cinza",
+      "ano": 2020,
+      "categoria": "Carro",
+      "fabricante": "Ford",
+      "preco": 70000,
+      "quantidadePortas": 4,
+      "tipoCombustivel": "Gasolina"
+    },
+    {
+      "id": "7",
+      "img": "https://unsplash.it/400/200",
+      "marca": "BMW",
+      "modelo": "320i",
+      "cor": "Branco",
+      "ano": 2023,
+      "categoria": "Carro",
+      "fabricante": "BMW",
+      "preco": 250000,
+      "quantidadePortas": 4,
+      "tipoCombustivel": "Gasolina"
+    },
+    {
+      "id": "8",
+      "img": "https://unsplash.it/400/200",
+      "marca": "Kawasaki",
+      "modelo": "Ninja 400",
+      "cor": "Verde",
+      "ano": 2023,
+      "categoria": "Moto",
+      "fabricante": "Kawasaki",
+      "preco": 35000,
+      "cilindrada": 399
+    },
+    {
+      "id": "9",
+      "img": "https://unsplash.it/400/200",
+      "marca": "Fiat",
+      "modelo": "Argo",
+      "cor": "Azul",
+      "ano": 2021,
+      "categoria": "Carro",
+      "fabricante": "Fiat",
+      "preco": 75000,
+      "quantidadePortas": 4,
+      "tipoCombustivel": "Flex"
+    }
+  ]
+}

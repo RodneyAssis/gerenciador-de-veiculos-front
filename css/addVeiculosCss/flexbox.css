@@ -1,0 +1,131 @@
+
+/* CABEÇALHO */
+header{
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    column-gap: 30%;
+  }
+  
+  .logo__item{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+  }
+
+/*Formulario*/
+.form-container{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.form__container__item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.categoria{
+    margin-left: 25%;
+    margin-right:25%;
+}
+
+input{
+    padding: 1%;
+    width: 40%;
+}
+
+/*botões do formulário*/
+.form__container__item__button{
+    margin-left: 25%;
+    margin-right:25%;
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+}
+
+button{
+    padding: 3%;
+    border-radius: 5px!important;
+}
+
+.enviar{
+    background-color: rgb(55, 204, 55);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cancelar{
+    background-color: red;
+}
+/*fim do formulário*/
+
+@media (max-width: 768px) { 
+      
+  .logo {
+    column-gap: 15%;
+    height: 10vh;
+  }
+
+  .logo__item{
+    column-gap: 2rem;
+  }
+
+  .logo__item img{
+    height: 20%;
+    width: 20%;
+  }
+
+/*Formulario*/
+.form-container{
+
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.form__container__item{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.categoria{
+  margin-left: 25%;
+  margin-right:25%;
+}
+
+input{
+  padding: 2%;
+  width: 80%;
+}
+
+}
+
+@media (max-width: 450px) {
+  .logo__item{
+    column-gap: 0.5rem;
+  }
+
+  .logo__item img{
+    height: 30%;
+    width: 30%;
+  }
+}
+
+
+
+

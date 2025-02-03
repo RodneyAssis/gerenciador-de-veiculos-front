@@ -1,0 +1,49 @@
+:root {
+  /* Paleta de cores */
+  --cor-primaria: #1e528a; 
+  --cor-secundaria: #F3F4F6; 
+  --cor-terciaria: #e1e0e0;
+  --cor-texto: #333333; /* Cor do texto */
+  --cor-borda: #2fd2e4; /* Cor de fundo */
+}
+
+/* CABEÇALHO */
+
+.logo{
+  padding: 1%;
+  background-color: var( --cor-primaria);
+}
+
+.logo__item img{
+  border-radius: 10px;
+  height: 10%;
+  width: 10%;
+}
+
+h1{
+  font-size: 100%!important;
+  font-weight: 200;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--cor-secundaria);
+}
+/* fim do cabeçalho*/
+
+input{
+    background-color: var(--cor-terciaria);
+    border-color: var(--cor-primaria);
+    border-radius: 10px;
+    border-style:solid;
+
+}
+
+input:hover{
+  transition: all .3s;
+  border-color: var(--cor-borda);
+}
+
+input:disabled {
+  border: 2px solid #ccc !important; 
+  cursor: not-allowed;
+}
+
+

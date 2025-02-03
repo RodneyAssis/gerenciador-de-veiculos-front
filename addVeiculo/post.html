@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css"> 
+    <link rel="stylesheet" href="../css/addVeiculosCss/estilos.css">
+    <link rel="stylesheet" href="../css/addVeiculosCss/flexbox.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous"> 
+    <title>Gerenciamento veiculos</title>
+</head>
+<body>
+    <header>
+        <div class="logo" href="#">
+            <div class="logo__item">
+              <img src="../img/logo.png"  />
+              <h1>Gerenciamento de carros</h1>
+            </div>
+           <a href="../index.html">
+            <svg width="30px" 
+            height="30px" 
+            viewBox="0 0 16 16" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" 
+            stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier"> 
+                <path fill-rule="evenodd" 
+                clip-rule="evenodd" 
+                d="M8 0L0 6V8H1V15H4V10H7V15H15V8H16V6L14 4.5V1H11V2.25L8 0ZM9 10H12V13H9V10Z" 
+                fill="#fcfcfc"></path> 
+            </g></svg>
+           </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+          </div> -->
+
+        <form class="form-container">
+            <h2>Adicionar Veiculo</h2>
+            <div class="form__container__item">
+                <input type="text" name="marca" placeholder="Marca"> 
+                <input type="text" name="modelo" placeholder="Modelo">
+                <input type="datetime" name="data" placeholder="Ano">
+                <input type="text" name="fabricante" placeholder="Fabricante">
+                <input type="number" name="preco" placeholder="Preço">
+                <input type="text" name="cor" placeholder="Cor">
+            </div>
+
+            <div class="form__container__item categoria">
+                <label>Categoria:</label><br>
+                <label>Carro:<input type="radio" name="categoria" value="Carro"></label>
+                <label>Moto:<input type="radio" name="categoria" value="Moto"></label>
+            </div>
+
+            <div class="form__container__item">
+                <input  type="number" name="qtdPortas" placeholder="Quantidade de portas" disabled >
+                <input  type="text" name="tipoCombustivel" placeholder="Tipo de combustivel" disabled>
+    
+                <input type="number" name="cilindrada" placeholder="Cilindrada" disabled>
+            </div>
+
+            <div class="form__container__item__button">
+                <button class="enviar">Enviar</button>
+                <button class="cancelar">Cancelar</button>
+            </div>
+        </form>
+        
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="../script/addVeiculoScript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</body>
+</html>
